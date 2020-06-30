@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.half-area {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+img {
+    width: 100%;
+}
+
+.half-area:first-child {
+    margin-left: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ptb-150 {
+    padding: 150px 0;
+}
+
+.theme-color {
+    color: #ec4c7a;
+}
+
+.link-btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-image: linear-gradient(45deg, #ec4c7a, #f80e50);
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all 03s ease-in-out;
+    -webkit-transition: all 03s ease-in-out;
+    -moz-transition: all 03s ease-in-out;
+    -ms-transition: all 03s ease-in-out;
+    -o-transition: all 03s ease-in-out;
+}
+
+.link-btn:hover {
+    background-image: linear-gradient(45deg, #f80e2d, #fbcd33);
+}
+
+p {
+    color: #707070;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.title h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+/* header-area */
+.header-area {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: top left;
+    background-size: cover;
+}
+
+.header-area .half-area img {
+    width: 100%;
+    height: 550px;
+}
+
+.header-area p {
+    margin-bottom: 30px;
+}
+
+
+
+.header-area h1 {
+    position: relative;
+}
+
+.header-area h1:after {
+    position: absolute;
+    content: "";
+    background: red;
+    bottom: 13px;
+    width: 0;
+    height: 5px;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.header-area h1:hover::after {
+    visibility: visible;
+    opacity: 1;
+    width: 97%;
+}
+
+
+/* biography-area */
+.biography-area {
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: top left;
+    background-size: cover;
+}
+
+.biography-area .half-area img {
+    width: 100%;
+    height: 550px;
+}
+
+.biography-area h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.biography-area p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.biography-area .link-btn {
+    text-transform: capitalize;
+}
+
+/* latest-work-area */
+.Latest-work-area {
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center center;
+
+}
+
+.quarter-area {
+    width: 32%;
+    float: left;
+    margin-left: 1.33%;
+
+}
+
+.quarter-area img {
+    width: 100%;
+    height: 350px;
+}
+
+.quarter-area:first-child {
+    margin-left: 0;
+}
+
+/* Client-area */
+.client-area {
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.client-content {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.client-content h4 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.client-area a {
+    color: #707070;
+    font-size: 14px;
+}
+
+.client-area p {
+    color: #333;
+}
+
+.contact {
+    margin-top: 20px;
+    background-image: linear-gradient(45deg, #ec4c7a, #f80e50);
+    color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.contact a,
+.contact p {
+    color: #fff;
+}
+
+.contact a {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 20px;
+    display: inline-block;
+}
