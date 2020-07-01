@@ -52,6 +52,7 @@ a {
 .ptb-150 {
     padding: 150px 0;
 }
+
 .ptb-50 {
     padding: 50px 0;
 }
@@ -139,7 +140,7 @@ header {
     font-weight: 700;
 }
 
-.main-menu li a.active{
+.main-menu li a.active {
     color: greenyellow;
 }
 
@@ -195,7 +196,6 @@ header {
     width: 97%;
 }
 
-
 /* biography-area */
 .biography-area {
     background-image: url(images/biography-bg.png);
@@ -225,15 +225,15 @@ header {
     text-transform: capitalize;
 }
 
-
 /* services area */
-.services-area{
+.services-area {
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
     height: 400px;
     background-position: bottom left;
     background-size: cover;
 }
+
 .col-3 {
     float: left;
     width: 24%;
@@ -243,24 +243,28 @@ header {
     background-color: lightcyan;
     padding: 10px;
     box-sizing: border-box;
-  }
-  .col-3:first-child {
-	margin-left: -1%;
 }
-  .col-3 img {
+
+.col-3:first-child {
+    margin-left: -1%;
+}
+
+.col-3 img {
     width: 50px;
     text-align: center;
-  }
-  .col-3 h3 {
-      font-size: 25px;
+}
+
+.col-3 h3 {
+    font-size: 25px;
     font-weight: 400;
     margin: 20px 0;
     text-transform: uppercase;
-  }
-  .col-3 p {
+}
+
+.col-3 p {
     font-size: 12px;
     margin-bottom: 30px;
-  }
+}
 
 
 
