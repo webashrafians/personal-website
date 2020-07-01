@@ -52,6 +52,9 @@ a {
 .ptb-150 {
     padding: 150px 0;
 }
+.ptb-50 {
+    padding: 50px 0;
+}
 
 .theme-color {
     color: #ec4c7a;
@@ -86,13 +89,64 @@ p {
 
 section {
     padding: 50px 0;
+    clear: both;
 }
+
 
 .title h2 {
     text-align: center;
     margin-bottom: 30px;
     font-weight: 400;
 }
+
+
+/* header navigation area  */
+header {
+    background: #ec4c7a;
+    height: 75px;
+}
+
+.logo-area h1 {
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+}
+
+.logo-area {
+    width: 30%;
+    float: left;
+}
+
+.main-menu {
+    text-align: right;
+}
+
+.main-menu ul {
+    list-style: none;
+    padding: 15px 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+}
+
+.main-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #777;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.main-menu li a.active{
+    color: greenyellow;
+}
+
+.main-menu li:hover a {
+    color: greenyellow;
+}
+
 
 /* header-area */
 .header-area {
@@ -171,6 +225,45 @@ section {
     text-transform: capitalize;
 }
 
+
+/* services area */
+.services-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: bottom left;
+    background-size: cover;
+}
+.col-3 {
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+    overflow: hidden;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .col-3:first-child {
+	margin-left: -1%;
+}
+  .col-3 img {
+    width: 50px;
+    text-align: center;
+  }
+  .col-3 h3 {
+      font-size: 25px;
+    font-weight: 400;
+    margin: 20px 0;
+    text-transform: uppercase;
+  }
+  .col-3 p {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+
+
+
 /* latest-work-area */
 .Latest-work-area {
     background-image: url(images/latest-work-bg.png);
@@ -197,23 +290,24 @@ section {
     margin-left: 0;
 }
 
-  .quarter-area:after {
+.quarter-area:after {
     position: absolute;
     content: "";
     background-image: linear-gradient(45deg, #4ceca9, #680ef8, #ffff00);
-    width:100%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
     top: 0;
     left: 0;
     transition: .3s;
     opacity: 0.25;
-  }
-  .quarter-area:hover::after {
-    width:0;
+}
+
+.quarter-area:hover::after {
+    width: 0;
     height: 0;
-  }
-  
+}
+
 
 /* Client-area */
 .client-area {

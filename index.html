@@ -13,11 +13,29 @@
 </head>
 
 <body>
+    <header>
+        <div class="container">
+            <div class="logo-area">
+                <h1 class="theme-color">BPHERO</h1>
+            </div><!-- logo-area-->
+            
+            <nav class="main-menu">
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#client">Client</a></li>
+                </ul>
+            </nav>
+            <!-- navigation area -->
+        </div>
+    </header>
 
     <section class="header-area">
         <div class="container">
 
-            <div class="half-area ptb-150">
+            <div class="half-area ptb-150" id="home">
                 <h3>Hello I'm</h3>
                 <h1 class="theme-color">Ashraful Alam</h1>
                 <p>I am a web developer. If you want to make your awesome websit than you hire me. Just you belive me, I
@@ -32,7 +50,7 @@
         </div>
     </section><!-- header-area end -->
 
-    <section class="biography-area">
+    <section class="biography-area" id="biography">
         <div class="container">
 
             <div class="half-area">
@@ -46,18 +64,52 @@
                     quidem iure, saepe molestias! </p>
                 <a href="#" class="link-btn">Download CV</a>
             </div>
-
         </div>
     </section><!-- biography-area end -->
 
-    <section class="Latest-work-area">
 
+    <section class="services-area ptb-50" id="services">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
+
+        <div class="container">
+            <div class="col-3">
+                <img src="images/icon/webdesign.png" alt="">
+                <h3>web design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis itaque, dolorem assumenda doloribus laborum unde?</p>
+                <a href="#" class="link-btn">read more</a>
+            </div><!-- col-3 end-->
+            <div class="col-3">
+                <img src="images/icon/webdevelopment.png" alt="">
+                <h3>web development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis itaque, dolorem assumenda doloribus laborum unde?</p>
+                <a href="#" class="link-btn">read more</a>
+            </div><!-- col-3 end-->
+            <div class="col-3">
+                <img src="images/icon/client.png" alt="">
+                <h3>Client Satisfection</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis itaque, dolorem assumenda doloribus laborum unde?</p>
+                <a href="#" class="link-btn">read more</a>
+            </div><!-- col-3 end-->
+            <div class="col-3">
+                <img src="images/icon/team-building.png" alt="">
+                <h3>Team Building</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis itaque, dolorem assumenda doloribus laborum unde?</p>
+                <a href="#" class="link-btn">read more</a>
+            </div><!-- col-3 end-->
+        </div>
+    </section>
+
+
+
+
+    <section class="Latest-work-area" id="work">
         <div class="title">
             <h2>My latest Work</h2>
         </div>
 
         <div class="container">
-
             <div class="quarter-area">
                 <img src="images/latest-work/work-1.png" alt="">
             </div>
@@ -67,11 +119,10 @@
             <div class="quarter-area">
                 <img src="images/latest-work/work-3.jpg" alt="">
             </div>
-
         </div>
-    </section><!-- Latest-area end -->
+    </section><!-- Latest-work-area end -->
 
-    <section class="client-area">
+    <section class="client-area" id="client">
 
         <div class="title">
             <h2>What Client are say</h2>
