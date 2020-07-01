@@ -184,6 +184,7 @@ section {
     width: 32%;
     float: left;
     margin-left: 1.33%;
+    position: relative;
 
 }
 
@@ -196,6 +197,24 @@ section {
     margin-left: 0;
 }
 
+  .quarter-area:after {
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(45deg, #4ceca9, #680ef8, #ffff00);
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    opacity: 0.25;
+  }
+  .quarter-area:hover::after {
+    width:0;
+    height: 0;
+  }
+  
+
 /* Client-area */
 .client-area {
     background-image: url(images/footer-bg.png);
@@ -204,7 +223,6 @@ section {
     background-position: center center;
     background-size: cover;
     text-align: center;
-
 }
 
 .client-content {
